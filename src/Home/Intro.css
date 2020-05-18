@@ -1,0 +1,74 @@
+#intro-wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+}
+
+#intro-deck {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.intro-card {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.left-border {
+    border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
+    padding-left: 1px !important; 
+}
+
+.intro-card-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2rem !important;
+    margin-bottom: 20px !important;
+}
+
+.intro-card-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* .intro-card-text {
+    color: rgba(255, 255, 255, 0.8);
+} */
+
+.intro-vert-line {
+    width: 1px;
+    height: 100%;
+    padding: 30% 0;
+    color: white;
+}
+
+.close {
+    display: none;
+}
+
+
+.code-snippet {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.keyword {
+    color: rgb(220, 221, 164);
+}
+
+.name {
+    color: rgb(0, 185, 198);
+}
+
+.braces {
+    color: rgb(212, 212, 212);
+}
+
+.punctuation {
+    color: rgba(212, 212, 212, 0.5);
+}
+
+.string {
+    color: rgb(205, 135, 109);
+}
+
+.attribute {
+    color: rgb(208, 129, 196);
+}

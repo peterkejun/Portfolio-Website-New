@@ -37,6 +37,7 @@ const Styles = {
     },
     card2: {
         border: 'none',
+        maxWidth: '700px',
     },
     listCard: {
         display: 'flex',

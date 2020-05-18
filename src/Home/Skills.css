@@ -1,0 +1,47 @@
+#skill-set-page {
+    padding: 50px;
+}
+
+#skill-set-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    display: flex;
+    border-radius: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.25rem 12px 0.25rem 0.5rem;
+    margin: 5px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.54);
+    transition: background-color 0.1s;
+}
+
+.skill-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.skill-item-image {
+    height: 30px;
+    width: auto;
+    margin: 0 0.5rem 0 0;
+}
+
+.skill-item-title {
+    margin: 0;
+}
+
+.chart-card {
+    width: 30rem;
+    max-height: 40rem;
+}
